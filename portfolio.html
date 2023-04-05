@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Luka Andghuladze | Developer/</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[Hotmansifu], [Luka], skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Luka Andghuladze] | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Luka Andghuladze | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+
+    <!-- link tags -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Luka Andghuladze</span>
+          <br />
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.png"
+              alt="Profile Image"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am Luka Andghuladze, a highly skilled Security Analyst and Penetration Tester. Pursuing Bachelor's degree in Computer Science from Caucasus University. I have 2+ years of experience in the field and am currently self-employed. I have a proven track record of performing vulnerability assessments and penetration testing and am proficient in various hacking tools.
+            </p>
+            <p class="about-wrapper__info-text">
+              My portfolio showcases my expertise in a wide range of technologies, including algorithms and data structures in C++, Python, as well as HTML, CSS, and JavaScript. My strong grasp of these technologies allows me to develop efficient solutions and extract valuable insights from data. Whether it's building high-performing applications or visually appealing websites, my skills make me a valuable asset to any team.
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                PortScanner</h3>
+              <p class="project-wrapper__text-info">
+                "POCCRSTER" is a port scanner application built using Python and its GUI library Tkinter. This application allows users to check the availability of ports on a target host by either entering the hostname of a website or the IP address of the target. The application provides two option for port scanning:Scan specific ports that the user inputs as a comma-separated string. The results of the scan are displayed in a listbox, indicating which ports are open or closed/filtered  
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/Hotmansifu/PortScanner" target="_blank" class="cta-btn cta-btn--hero cta-btn--project"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Fraud Detection Model</h3>
+              <p class="project-wrapper__text-info">
+                This project uses a logistic regression model to detect fraudulent transactions in credit card data. The original dataset has a heavily imbalanced class distribution, with a large number of normal transactions and a smaller number of fraudulent transactions. The data was undersampled to balance the class distribution and create a new dataset for analysis. The logistic regression model was trained on the undersampled data and evaluated on a held-out test set. The evaluation metrics used were accuracy, precision, recall, F1 score, confusion matrix, and ROC curve.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/Hotmansifu/Credit-Card-Fraud-Detection" target="_blank" class="cta-btn cta-btn--hero cta-btn--project"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project2.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">SocialMediaScraper</h3>
+              <p class="project-wrapper__text-info">
+                The SocialMediaScraper project on GitHub is a tool that allows users to scrape data from various social media platforms, including Facebook, Twitter, and Instagram. The project is written in Python and uses a combination of web scraping techniques and APIs to gather information such as user profiles, posts, and comments. The collected data can then be exported to a CSV file for further analysis.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/Hotmansifu/SocialMediaScraper" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project3.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+           Disclaimer: those are only my favorite Projects for now. You can check out other projects on my GitHub profile <a target="_blank" href="https://github.com/Hotmansifu">GitHub</a>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Click the button to contact me :) </p>
+          <a href="mailto:andguladzeluka13@gmail.com" class="cta-btn cta-btn--resume">Send mail</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://twitter.com/LukaAndguladze7"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/sifkuu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+          
+          <a
+            href="https://www.linkedin.com/in/luka-andghuladze-866382210/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/Hotmansifu"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
